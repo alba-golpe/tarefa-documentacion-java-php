@@ -1,6 +1,17 @@
 {
     "name": "plus/php",
-    "require": {
+    "autoload": {
+        "psr-4": {
+            "Plus\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alba-golpe",
+            "email": "golpe.alba@gmail.com"
+        }
+    ],
+    "require-dev": {
         "phpdocumentor/phpdocumentor": "^3.9"
     }
 }
