@@ -1,0 +1,6 @@
+{
+    "name": "plus/php",
+    "require": {
+        "phpdocumentor/phpdocumentor": "^3.9"
+    }
+}
